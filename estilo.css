@@ -1,0 +1,209 @@
+    .header{
+        background-color: #e76868;
+        padding: 15px 0;
+    }
+    
+    body {
+    background: linear-gradient(to bottom right,rgb(221, 230, 237), rgb(39, 55, 77));
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0%;
+  }
+
+  .user{
+    margin-top: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .aluraLogo {
+    position: absolute;
+    left: 1%;
+    top: 3%;
+    bottom: 0%;
+  }
+
+  .title {
+    text-align: center;
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .label-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  textarea {
+   
+    position: absolute;
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+  }
+
+  #result {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    position: absolute;
+    width: 680px;
+    height: 288px;
+    left: 1000px;
+    top: 170px;
+    background: #FFFFFF;
+
+   
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+  }
+
+  .button-container {
+    display: flex;
+  }
+
+  .button-wrapper {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 8px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 400px;
+    top: 500px;
+
+    width: 160px;
+    height: 40px;
+
+    justify-content: center;
+ 
+    background: rgb(52, 66, 40);
+    border: 3px solid hwb(100 69% 11%);
+    border-radius: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+  }
+
+  button2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 600px;
+    top: 500px;
+
+    width: 160px;
+    height: 40px;
+
+    justify-content: center;
+ 
+    background: rgb(52, 66, 40);
+    border: 3px solid hwb(100 69% 11%);
+    border-radius: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+  }
+
+  button3 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 1250px;
+    top: 500px;
+
+    width: 160px;
+    height: 40px;
+
+    justify-content: center;
+ 
+    background: rgb(52, 66, 40);
+    border: 3px solid hwb(100 69% 11%);
+    border-radius: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+  }
+  
+  .rainbowText {
+    font-size: 30px;
+    background: linear-gradient(
+        90deg,
+        #866ee7,
+        #ea60da,
+        #ed8f57,
+        #fbd41d,
+        #2cca91
+      );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: block;
+  }
+
+.sujetoEse {
+  width: auto;
+  height: 300px;
+  margin-top: -19%;
+  margin-left: 63%;
+}
+
+.gatoProgramador{
+  width: 300px;
+  height: auto;
+  margin-top: 19%;
+  margin-left: 450px;
+  border-radius: 32px;
+}
